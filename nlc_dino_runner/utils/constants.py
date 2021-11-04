@@ -1,7 +1,7 @@
 import pygame
 import os
 
-# Global Constants
+# Global Constants estos nos permite delimitar el ancho y alto del juego y que haya el movimiento
 SCREEN_HEIGHT = 600
 SCREEN_WIDTH = 1100
 FPS = 30
@@ -65,5 +65,7 @@ HAMMER = pygame.image.load(os.path.join(IMG_DIR, 'Other/hammer.png'))
 BG = pygame.image.load(os.path.join(IMG_DIR, 'Other/Track.png'))
 
 HEART = pygame.image.load(os.path.join(IMG_DIR, 'Other/SmallHeart.png'))
+
+ICON = pygame.image.load(os.path.join(IMG_DIR, 'Dinowallpaper.png'))
 
 DEFAULT_TYPE = "default"
